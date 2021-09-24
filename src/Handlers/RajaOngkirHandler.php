@@ -16,7 +16,7 @@ class RajaOngkirHandler extends RajaOngkir
      */
     public function getProvinces(?string $id = '')
     {
-        $provinces = $this->client->request('GET', self::PROVINCE_ENDPOINT, [
+        $provinces = $this->client->request('GET', $this->type . '/' . self::PROVINCE_ENDPOINT, [
             'query' => [
                 'key' => $this->api_key,
                 'id' => $id,
