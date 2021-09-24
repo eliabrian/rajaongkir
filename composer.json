@@ -1,0 +1,24 @@
+{
+    "name": "eliabrian/rajaongkir",
+    "description": "PHP wrapper for Raja Ongkir",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Elia",
+            "email": "eliabrianb@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "guzzlehttp/guzzle": "^7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Elia\\RajaOngkir\\": "src/"
+        }
+    }
+}
