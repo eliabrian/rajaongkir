@@ -24,16 +24,16 @@ class RajaOngkir {
     /**
      * Guzzle's Client
      * 
-     * @var string 
+     * @var Client 
      */
-    protected string $client = '';
+    protected string $client;
 
     /**
      * Custom RajaOngkir Hanlder
      * 
-     * @var string 
+     * @var RajaOngkirHandler 
      */
-    private string $handler = '';
+    private string $handler;
 
     /**
      * Create a new Raja Ongkir instance
