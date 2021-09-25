@@ -18,7 +18,8 @@
     },
     "autoload": {
         "psr-4": {
-            "Elia\\RajaOngkir\\": "src/"
+            "Elia\\RajaOngkir\\": "src/",
+            "Elia\\RajaOngkir\\Test\\": "tests/"
         }
     }
 }
